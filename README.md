@@ -1,8 +1,8 @@
 ## SurvPancreas
 
 > [!NOTE]
-> The example dataset in the `data/` directory is synthetic and provided only for reproducibility checks.
-> Any analytical results based on it do not reflect the real data.
+> We provide a synthetic example data in the `data/` directory for reproducibility checks.
+> Any analytical results based on it do not represent the real data.
 > For the actual model performance and prognostic associations, please refer to the original research article.
 
 All analyses were performed using R version 4.5.1.
@@ -53,5 +53,5 @@ The vignettes below demonstrate their usage.
 
 ### Vignettes
 
-- `analysis1.qmd`: [SHAP Analysis and Visualization]()
-- `analysis2.qmd`: [Model Performance Evaluation]()
+- `analysis1.qmd`: [SHAP Analysis and Visualization](https://darentsai.github.io/SurvPancreas/analysis1)
+- `analysis2.qmd`: [Model Performance Evaluation](https://darentsai.github.io/SurvPancreas/analysis2)
