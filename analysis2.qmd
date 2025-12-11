@@ -200,6 +200,9 @@ for each performance metric at each time point.
 ```{r}
 #| eval: false
 
+# suppress warning messages from {survivalmodels}
+Sys.setenv("PYTHONWARNINGS" = "ignore")
+
 cv_bench <- imap(panc_impute, \(df, imp_id) {
   cv_ind <- kfold_cv_ind(nrow(df), k = 5, repeats = 10)
   imap(cv_ind, \(x, fold_id) {
