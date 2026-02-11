@@ -296,7 +296,8 @@ model_lookup <- c(
   "nn_coxtime" = "Cox-Time"
 )
 
-model_col <- c("blue2", "purple3", "#00BBff", "#61b04f", "gold2", "darkorange2", "red3")
+# palette.colors(palette = "Okabe-Ito")
+model_col <- c("#0072B2", "#CC79A7", "#009E73", "#E69F00", "#56B4E9", "#F0E442", "#D55E00")
 
 perf_pool_long %>%
   ggplot(aes(x = times, y = value, colour = model)) +
@@ -308,9 +309,9 @@ perf_pool_long %>%
   scale_color_manual(name = "Models", na.translate = FALSE,
                      labels = model_lookup, 
                      values = model_col) +
+  theme_bw() +
   theme(strip.text = element_text(hjust = 0),
         strip.background = element_blank(),
         panel.border = element_blank(),
-        axis.line = element_line(color = 'black'),
-        panel.grid.major = element_line(colour = "gray80"))
+        axis.line = element_line(color = 'black'))
 ```
