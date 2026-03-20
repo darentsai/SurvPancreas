@@ -3,7 +3,8 @@
 > [!NOTE]
 > We provide a synthetic example data in the `data/` directory for reproducibility checks.
 > Any analytical results based on it do not represent the real data.
-> For the actual model performance and prognostic associations, please refer to the original research article.
+> For the actual model performance and prognostic associations, please refer to the original research article
+> (https://doi.org/10.1371/journal.pdig.0001296).
 
 All analyses were performed using R version 4.5.1.
 
