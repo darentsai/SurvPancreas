@@ -3,8 +3,7 @@
 > [!NOTE]
 > We provide a synthetic example data in the `data/` directory for reproducibility checks.
 > Any analytical results based on it do not represent the real data.
-> For the actual model performance and prognostic associations, please refer to the original research article
-> (https://doi.org/10.1371/journal.pdig.0001296).
+> For the actual model performance and prognostic associations, please refer to the original research article (Tsai et al., 2026)[^1].
 
 All analyses were performed using R version 4.5.1.
 
@@ -56,3 +55,6 @@ The vignettes below demonstrate their usage.
 
 - `analysis1.qmd`: [SHAP Analysis and Visualization](https://darentsai.github.io/SurvPancreas/analysis1)
 - `analysis2.qmd`: [Model Performance Evaluation](https://darentsai.github.io/SurvPancreas/analysis2)
+
+[^1]: Tsai DR, Chiang CJ, Hsieh PC, Huang CY, Lee WC (2026) Explainable artificial intelligence for personalized prognosis in pancreatic cancer: A nationwide study from Taiwan.
+PLOS Digit Health 5(3): e0001296. <https://doi.org/10.1371/journal.pdig.0001296>
