@@ -2,7 +2,8 @@
 
 [![DOI:10.1371/journal.pdig.0001296](http://img.shields.io/badge/DOI-10.1371/journal.pdig.0001296-blue.svg)](https://doi.org/10.1371/journal.pdig.0001296)
 
-Tsai DR, Chiang CJ, Hsieh PC, Huang CY, Lee WC (2026) Explainable artificial intelligence for personalized prognosis in pancreatic cancer: A nationwide study from Taiwan.
+Tsai DR, Chiang CJ, Hsieh PC, Huang CY, Lee WC (2026)
+**Explainable artificial intelligence for personalized prognosis in pancreatic cancer: A nationwide study from Taiwan**.
 *PLOS Digit Health* 5(3): e0001296.
 
 > [!NOTE]
