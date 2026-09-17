@@ -1,4 +1,4 @@
-## SurvPancreas
+# SurvPancreas
 
 [![DOI:10.1371/journal.pdig.0001296](http://img.shields.io/badge/DOI-10.1371/journal.pdig.0001296-blue.svg)](https://doi.org/10.1371/journal.pdig.0001296)
 
@@ -15,7 +15,7 @@ Tsai DR, Chiang CJ, Hsieh PC, Huang CY, Lee WC (2026)
 
 All analyses were performed using R version 4.5.1.
 
-### Required R Packages
+## Required R Packages
 
 - [`{tidyverse}`](https://tidyverse.org/packages/):
   A collection of packages for tidy data manipulation and functional programming.
@@ -46,7 +46,7 @@ install.packages(pkgs)
 remotes::install_github("darentsai/plotshap")
 ```
 
-### Source code
+## Source code
 
 The source code for this project is available in the `R/` directory:
 
@@ -59,7 +59,7 @@ The source code for this project is available in the `R/` directory:
 For analysis, load these scripts first to import all the functions.
 The vignettes below demonstrate their usage.
 
-### Vignettes
+## Vignettes
 
 - `analysis1.qmd`: [SHAP Analysis and Visualization](https://darentsai.github.io/SurvPancreas/analysis1)
 - `analysis2.qmd`: [Model Performance Evaluation](https://darentsai.github.io/SurvPancreas/analysis2)
